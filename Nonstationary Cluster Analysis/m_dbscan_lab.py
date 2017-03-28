@@ -4,11 +4,15 @@ from pygame.locals import*
 from dbscan import*
 from constants import*
 
+"""
+***dbscan_obj.normalize ==> True to normalize points, False to see raw points
+"""
+
 #determines whether the DBSCAN lab opens files written in DATA_LIST_FILE_NAME or whether to pick individual data files
 MULTIPLE_FILES = True
-DATA_LIST_FILE_NAME = ["List_Of_Files.txt"]
+DATA_LIST_FILE_NAME = ["DataFiles/List_Of_Files.txt"]
 LIST_FILE_ID = 0
-DATA_TEXT_FILE_NAME = ["new_data/Control/Radius/CONTROLR_5B_3M_6S_QT_10_t1.txt", "test3.txt"]
+DATA_TEXT_FILE_NAME = ["DataFiles/new_data/Control/Radius/CONTROLR_5B_3M_6S_QT_10_t1.txt", "DataFiles/test3.txt"]
 TEXT_FILE_ID = 0
 DELIM = ["\t\t", " ", ","] 
 DELIM_ID = 0 #**make sure you match delimiter with what files you're anaylzing
