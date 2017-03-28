@@ -1,6 +1,8 @@
 # RAG-2017-Info-Processing
 Irvine Valley College's Autonomous Search and Rescue Robot
 
+GitHub reference: https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line
+
 In Nonstationary Cluster Anaylsis:
 
 	-install pygame: https://www.pygame.org/wiki/GettingStarted
