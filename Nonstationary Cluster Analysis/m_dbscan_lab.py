@@ -1,4 +1,3 @@
-__author__ = 'alanyuen'
 import pygame, sys, math, random, time, dbscan, constants
 from pygame.locals import*
 from dbscan import*

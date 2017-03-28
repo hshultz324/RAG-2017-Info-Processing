@@ -1,4 +1,3 @@
-__author__ = 'alanyuen'
 import sys, math, random, constants, copy
 from constants import*
 

@@ -1,4 +1,3 @@
-__author__ = 'alanyuen'
 import math
 
 ### DIMENSION CONSTANTS ###
