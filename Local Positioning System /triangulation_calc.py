@@ -1,4 +1,3 @@
-__author__ = 'alanyuen'
 import pygame, sys, math, random
 import numpy as np
 from pygame.locals import*
