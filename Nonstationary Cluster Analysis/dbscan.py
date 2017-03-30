@@ -132,6 +132,16 @@ class Cluster:
         self.avg_time_stamp /= float(len(self.points))
         return self.avg_time_stamp
 
+    def getEndpointTimeStamps(self)
+        self.beginning_time_stamp = 1000000
+        self.ending_time_stamp = 0
+        for p in self.points:
+            if p.timestamp < self.beginning_time_stamp:
+                self.beginning_time_stamp = p.timestamp
+            if p.timestamp > self.ending_time_stamp:
+                self.ending_time_stamp = p.timestamp
+        return [self.beginning_time_stamp, self.ending_time_stamp]
+
 #Density-based spatial clustering of applications with noise
 class DBSCAN:
     #min points, density epsilon, time epsilon
